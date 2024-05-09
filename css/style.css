@@ -150,3 +150,7 @@ ul{
     column-gap: 20px;
     
 }
+a{
+    color: white;
+    text-decoration: none;
+}
