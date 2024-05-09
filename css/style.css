@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px 0 70px;
+    font-family: Poetsen One;
+}
+
+.nav-logo{
+    margin-top: 6px;
+
+}
+.menu-info{
+    margin-top: 27px;
+    display: flex;
+
+}
+.sino{
+    margin-left: 70px;
+
+}
+
+.user{
+    margin-left: 26px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    column-gap: 57px;
+    margin-top: 34px;
+    font-size: 24px;
+    color: white;
+}
+
+.container{
+    padding: 220px 0px 0px 320px;
+    display: flex;
+}
+
+.info-relogio{
+    display: flex;
+    align-items: center;
+}
+.infos{
+    margin-left: 170px;
+    text-justify: distribute;
+    color: white;
+    text-align: justify;
+
+    
+}
+.sub-titulo{
+    font-size: 20px;
+    font-family: b612;
+    margin-left: 120px;
+}
+.titulo{
+    font-size: 120px;
+    font-family: b612;
+    margin-top: 70px;
+    margin-left: 140px;
+
+
+}
+.info-relogio{
+    font-size: 24px;
+    font-family: b612;
+    display: flex;
+    column-gap: 30px;
+    margin-top: 34px;
+}
+.estrelas{
+    column-gap: 30px;
+}
+
+.estrelas-tp{
+    opacity: 30%;
+}
+
+.btns{
+    display: flex;
+    column-gap: 53px;
+    padding: 70px 0 30px 0px;
+    justify-content: center;
+}
+.btn1{
+    width: 259px;
+    height: 72px;
+    border-radius: 38px;
+    border: none;
+    background-color: #4A172972;
+    align-items: center;
+    display: flex;
+    color: white;
+    column-gap: 20px;
+
+}
+.play{
+ width: 24px;
+ height: 24px;
+
+
+}
+.circulo{
+    width: 47px;
+    height: 43px;
+    background-color: darkgrey;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.texto-btn{
+   font-size: 25px;
+   font-family: b612;
+   font-style: italic;
+   text-transform:uppercase;
+}
+.texto-btn2{
+   font-size: 25px;
+   font-family: b612;
+   font-style: italic;
+   text-transform:uppercase;
+}
+
+.btn2{
+    width: 403px;
+    height: 72px;
+    border-radius: 38px;
+    background-color: #FFFFFF23;
+    border: none;
+    align-items: center;
+    display: flex;
+    color: white;
+    column-gap: 20px;
+    
+}
